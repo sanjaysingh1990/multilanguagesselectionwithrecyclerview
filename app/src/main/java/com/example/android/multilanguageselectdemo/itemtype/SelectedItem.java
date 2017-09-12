@@ -5,19 +5,11 @@ package com.example.android.multilanguageselectdemo.itemtype;
  */
 
 public class SelectedItem {
-    public int getPos() {
-        return pos;
-    }
 
-    public void setPos(int pos) {
-        this.pos = pos;
-    }
-
-    private int pos;
-
-    public SelectedItem(String value,int pos) {
+    public SelectedItem(String value,String langLevel) {
         this.value = value;
-        this.pos=pos;
+        this.langLevel=langLevel;
+
     }
 
     public String getValue() {
@@ -29,4 +21,14 @@ public class SelectedItem {
     }
 
     private String value;
+
+    public String getLangLevel() {
+        return langLevel;
+    }
+
+    public void setLangLevel(String langLevel) {
+        this.langLevel = langLevel;
+    }
+
+    private String langLevel;
 }

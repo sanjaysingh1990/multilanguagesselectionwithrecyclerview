@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">MultilanguageselectDemo</string>
+    <string name="heading_add_language">ADD LANGUAGES</string>
 </resources>
